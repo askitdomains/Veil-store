@@ -1,5 +1,8 @@
+// Replace the old import:
+// import FirebaseFirestoreSwift
+
+// With the new import:
 import FirebaseFirestore
-import FirebaseFirestoreSwift
 
 class AppStoreService: ObservableObject {
     @Published var allApps: [AppEntry] = []
